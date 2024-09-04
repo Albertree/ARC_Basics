@@ -11,6 +11,11 @@ numpy, matplotlib, tqdm
 │   ├── evaluation
 │   └── training
 ├── settings.json
-└── thumbnail_generator.py
+├── thumbnail_generator.py
+└── VISUALIZATION.py
 ```
-### Get [ARC dataset](https://github.com/fchollet/ARC-AGI) and place it accordingly.
+# Initial Execution
+```
+python thumbnail_generator.py
+```
+This will start generating image sets. It takes around 10 minutes to generate all.
